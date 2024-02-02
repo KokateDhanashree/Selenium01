@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="firstSuit">
+	<test name="myTest">
+		<classes>
+			<class name="com.testNg.ClassAftBefor"/>
+			<class name="com.testNg.MethodBeforeAfterr"></class>
+		</classes>
+	</test>
+	
+	
+	<test name="mytest1">
+		<classes>
+			<class name="com.testNg.ClassAftBefor"/>
+			<class name="com.testNg.MethodBeforeAfterr"></class>
+		</classes>
+	</test>
+</suite>

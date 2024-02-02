@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="paraSuite"  thread-count="5" parallel="tests">
+	
+  <test name="paraTest1">
+	  <parameter name="browser" value="ch"></parameter>
+	  <parameter name="url" value="https://www.saucedemo.com/"></parameter>
+ <classes>
+	 <class name="com.testNg.ParameterNparrallle"/>
+ </classes>
+</test>
+
+ <test name="paraTest2">
+	  <parameter name="browser" value="fire"></parameter>
+	  <parameter name="url" value="https://www.saucedemo.com/"></parameter>
+ <classes>
+	 
+	 <class name="com.testNg.ParameterNparrallle"/>
+	 
+ </classes>
+
+
+</test>
+</suite>
